@@ -11,7 +11,7 @@ npm v6.14.6 <br>
 
 It may work on lower versions. But not tested
 
-## Hosting
+## Running
 Nodejs - pm2 start index.js <br>
 Reactjs - <br>
 npm run build <br>
