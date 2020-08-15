@@ -1,0 +1,11 @@
+{
+  "name": "node-api-postgres",
+  "version": "1.0.0",
+  "description": "API for ReactJs",
+  "main": "index.js",
+  "license": "MIT",
+"dependencies": {
+    "pg": "*",  
+    "pm2": "*"      
+  },
+}
