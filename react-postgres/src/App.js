@@ -29,7 +29,10 @@ class App extends React.Component {
     alert('A form was submitted: ' +body);
 
 
-    fetch('http://localhost:3000/quote/', {
+
+if(this.state.Quotation_Info != '')
+    {
+      fetch('http://15.207.180.133:3000/quote/', {
         
         
         body: body,
@@ -43,6 +46,12 @@ class App extends React.Component {
       });
 
     event.preventDefault();
+
+    }
+    else{
+      alert('Textbox is empty. Please insert a value');
+    }
+
 }
 
 
