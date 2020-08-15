@@ -12,10 +12,10 @@ npm v6.14.6 <br>
 It may work on lower versions. But not tested
 
 ## Hosting
-Nodejs - pm2 start index.js
-Reactjs - 
-npm run build
-serve -s build
+Nodejs - pm2 start index.js <br>
+Reactjs - <br>
+npm run build <br>
+serve -s build <br>
 
 
 
