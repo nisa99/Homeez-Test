@@ -26,12 +26,13 @@ class App extends React.Component {
     //var data = new FormData(event.target)
     //data.set(Quotation_Info', this.state.Quotation_Info)
     var body = ('Quotation_Info=' + this.state.Quotation_Info)
-    alert('A form was submitted: ' +body);
+   
 
 
 
 if(this.state.Quotation_Info != '')
     {
+     alert('Your Input is sumbitted: ' +this.state.Quotation_Info);
       fetch('http://15.207.180.133:3000/quote/', {
         
         
